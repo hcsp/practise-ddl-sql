@@ -4,3 +4,5 @@ build/
 out/
 target/
 *.iml
+mall.mv.db
+mall.trace.db

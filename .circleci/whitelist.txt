@@ -1,0 +1,3 @@
+src/main/resources/db/migration/
+mall.mv.db
+mall.trace.db
