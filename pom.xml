@@ -61,7 +61,7 @@
             <goal>migrate</goal>
         </goals>
         <configuration>
-            <url>jdbc:h2:file:${project.basedir}/mall</url>
+            <url>jdbc:h2:file:${project.basedir}/target/mall</url>
             <user>root</user>
             <password>Jxi1Oxc92qSj</password>
         </configuration>
