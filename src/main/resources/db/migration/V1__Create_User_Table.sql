@@ -6,12 +6,13 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
-create table USER(
-    ID bigint,
-    NAME varchar(100),
-    TEL varchar(20),
-    ADDRESS varchar(100),
-    CREATED_AT timestamp ,
-    UPDATED_AT timestamp ,
-    STATUS TINYINT
-);
+create table user
+(
+    id         BIGINT primary key auto_increment,
+    name       varchar(100) not null,
+    tel        varchar(20)  not null unique,
+    address    varchar(100),
+    CREATED_AT timestamp    not null,
+    UPDATED_AT timestamp    not null,
+    STATUS     tinyint      not null
+)

@@ -6,4 +6,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert into user values(200,'TEST_GOODS',123.00,1,NOW(),NOW(),1)
+insert into GOODS (ID, NAME, PRICE, "LEFT", CREATED_AT, UPDATED_AT, STATUS)
+values (200, 'TEST_GOODS', 123.00, 1, now(), now(), 1);
