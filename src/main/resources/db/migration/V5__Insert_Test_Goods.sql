@@ -6,5 +6,3 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert into goods(id, name, price, left, CREATED_AT, UPDATED_AT, status)
-values(200, 'TEST_GOODS', 123.00, 1, now(), now(), 1)
