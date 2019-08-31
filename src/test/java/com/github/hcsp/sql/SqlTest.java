@@ -16,7 +16,7 @@ public class SqlTest {
         try (Connection connection = DriverManager.getConnection(jdbcUrl, "root", "Jxi1Oxc92qSj")) {
             assertRowExists(
                     connection,
-                    "SELECT ID,NAME,TEL,ADDRESS, CREATED_AT,UPDATED_AT,STATUS FROM USER "
+                    "SELECT ID,NAME,TEL,ADDRESS,CREATED_AT,UPDATED_AT,STATUS FROM USER "
                             + "WHERE ID = 100 AND STATUS = 1 AND NAME='TEST_USER' AND TEL = '1234567890'");
 
             assertRowExists(
