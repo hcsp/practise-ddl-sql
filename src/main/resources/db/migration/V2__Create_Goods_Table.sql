@@ -6,7 +6,7 @@ LEFT int not null  ,
 CREATED_AT   TIMESTAMP not null ,
 UPDATED_AT   TIMESTAMP not null ,
 STATUS       TINYINT    not null
-)
+);
 -- 请在这里编写一条SQL语句，创建一个名为GOODS的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增
 -- NAME         VARCHAR(100) 商品名            不可为空
