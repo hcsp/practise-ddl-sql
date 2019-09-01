@@ -2,7 +2,7 @@ create table GOODS (
 ID bigint primary key auto_increment ,
 NAME varchar(100) not null ,
 PRICE decimal not null ,
-LEFT int not null  ,
+LEFT int not null default 0,
 CREATED_AT   TIMESTAMP not null ,
 UPDATED_AT   TIMESTAMP not null ,
 STATUS       TINYINT    not null
