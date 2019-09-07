@@ -6,3 +6,14 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+
+create table goods (
+    id bigint auto_increment comment 'ID',
+    name varchar(100) not null comment '商品名',
+    price decimal not null comment '价格',
+    left int not null default 0 comment '库存',
+    created_at timestamp not null comment '创建时间',
+    updated_at timestamp not null comment '修改时间',
+    status tinyint not null comment '状态，1正常，-1删除',
+    primary key (id)
+);
