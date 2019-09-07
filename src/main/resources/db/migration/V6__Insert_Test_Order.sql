@@ -1,4 +1,4 @@
--- 请在这里编写一条SQL语句，插入一条ORDER
+-- 请在这里编写一条SQL语句，插入一条 ORDER
 -- ID           1
 -- USER_ID      100
 -- GOODS_ID     200
@@ -7,3 +7,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+insert into "ORDER" (id, user_id, goods_id, goods_num, goods_price, created_at, updated_at, status)
+values (1, 100, 200, 1, 123.00, now(), now(), 1)
