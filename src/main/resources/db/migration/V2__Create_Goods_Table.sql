@@ -1,4 +1,14 @@
 -- 请在这里编写一条SQL语句，创建一个名为GOODS的表，其中的列如下
+
+CREATE TABLE IF NOT EXISTS `GOODS` (
+    `ID` BIGINT PRIMARY KEY AUTO_INCREMENT,
+    `NAME` VARCHAR(100) NOT NULL,
+    `PRICE` DECIMAL NOT NULL,
+    `LEFT` INT NOT NULL DEFAULT 0,
+    `CREATED_AT` TIMESTAMP NOT NULL,
+    `UPDATED_AT` TIMESTAMP NOT NULL,
+    `STATUS` TINYINT NOT NULL,
+);
 -- ID           BIGINT       ID               主键 自增
 -- NAME         VARCHAR(100) 商品名            不可为空
 -- PRICE        DECIMAL      价格              不可为空
