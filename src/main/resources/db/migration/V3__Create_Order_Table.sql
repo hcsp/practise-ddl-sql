@@ -7,3 +7,35 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+create table `ORDER`
+(
+	ID BIGINT auto_increment,
+	USER_ID BIGINT not null,
+	GOODS_ID BIGINT not null,
+	GOODS_NUM INT not null,
+	GOODS_PRICE DECIMAL not null,
+	CREATED_AT TIMESTAMP not null,
+	UPDATED_AT TIMESTAMP not null,
+	STATUS TINYINT default 1 not null,
+	constraint ORDER_pk
+		primary key (ID)
+);
+
+comment on table "ORDER" is '订单表';
+
+comment on column "ORDER".ID is 'ID';
+
+comment on column "ORDER".USER_ID is '用户ID';
+
+comment on column "ORDER".GOODS_ID is '商品ID';
+
+comment on column "ORDER".GOODS_NUM is '商品数量';
+
+comment on column "ORDER".GOODS_PRICE is '商品单价';
+
+comment on column "ORDER".CREATED_AT is '创建时间';
+
+comment on column "ORDER".UPDATED_AT is '修改时间';
+
+comment on column "ORDER".STATUS is '状态';
+
