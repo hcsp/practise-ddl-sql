@@ -1,3 +1,13 @@
+create table user
+(
+    id bigint auto_increment primary key,
+    name varchar(100) not null,
+    tel varchar(20) not null unique,
+    address varchar(100),
+    created_at timestamp not null,
+    updated_at timestamp not null,
+    status tinyint not null
+);
 -- 请在这里编写一条SQL语句，创建一个名为USER的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增
 -- NAME         VARCHAR(100) 用户名            不可为空
