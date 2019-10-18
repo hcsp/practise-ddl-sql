@@ -1,5 +1,5 @@
-insert into goods (id,name,price,left,created_at,updated_at,status)
-values (200,'test_goods',123.00,1,now(),now(),1);
+insert into goods (id,name,price,`LEFT`,created_at,updated_at,status)
+values (200,'TEST GOODS',123.00,1,now(),now(),1);
 -- 请在这里编写一条SQL语句，在GOODS表中插入一条数据
 -- ID           200
 -- NAME         'TEST_GOODS'
