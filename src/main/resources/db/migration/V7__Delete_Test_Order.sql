@@ -1,2 +1,2 @@
-update "order" set status=-1 where id = 1
+UPDATE "ORDER" SET STATUS=-1 WHERE ID = 1
 -- 请在这里编写一条SQL语句，将ID为1的订单进行"逻辑删除"

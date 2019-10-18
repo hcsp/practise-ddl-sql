@@ -1,5 +1,5 @@
-insert into "order"(id,user_id,goods_id,goods_num,goods_price,created_at,updated_at,status)
-values (1,100,200,1,123.00,now(),now(),1)
+INSERT INTO `ORDER`(ID,USER_ID,GOODS_ID,GOODS_NUM,GOODS_PRICE,CREATED_AT,UPDATED_AT,STATUS)
+VALUES (1,100,200,1,123.00,NOW(),NOW(),1)
 -- 请在这里编写一条SQL语句，插入一条ORDER
 -- ID           1
 -- USER_ID      100
