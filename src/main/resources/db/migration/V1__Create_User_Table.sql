@@ -6,3 +6,13 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+
+CREATE TABLE `USER` (
+`ID`  bigint NOT NULL PRIMARY KEY AUTO_INCREMENT ,
+`NAME`  varchar(100) NOT NULL ,
+`TEL`  varchar(20) UNIQUE NOT NULL ,
+`ADDRESS`  varchar(100) ,
+`CREATED_AT`  timestamp NOT NULL,
+`UPDATED_AT`  timestamp NOT NULL,
+`STATUS`  tinyint NOT NULL
+);
