@@ -7,3 +7,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+insert into `order`(ID,user_id , goods_id, goods_number,goods_price, created_at, update_at, status)
+values (1,100,200,1,123.00,now(),now(),1)
