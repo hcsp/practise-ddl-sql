@@ -6,5 +6,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-INSERT INTO GOODS(ID, name, price, left, CREATED_AT, UPDATED_AT, status)
-VALUES (200, 'TEST_GOODS', 123.00, 1, NOW(), NOW(), 1)
+INSERT INTO GOODS(ID, name, price, left, created_at, updated_at, status)
+VALUES (200, 'TEST_GOODS', 123.00, 1, NOW(), NOW(), 1);
