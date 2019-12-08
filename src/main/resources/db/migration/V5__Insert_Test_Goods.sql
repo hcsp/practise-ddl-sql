@@ -6,3 +6,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+insert into goods
+values (200,'TEST_GOODS',123.00,1,now(),now(),1)
