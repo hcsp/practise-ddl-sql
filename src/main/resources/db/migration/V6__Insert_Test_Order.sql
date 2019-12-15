@@ -7,7 +7,7 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert into "ORDER" (
+insert into `ORDER` (
     ID,
     USER_ID,
     GOODS_ID,
