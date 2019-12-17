@@ -1,6 +1,6 @@
 create table USER
 (
-id bigint AUTO_INCREMENT primary key auto_increment,
+id bigint primary key auto_increment,
 name varchar(100) not null,
 tel varchar(20) not null unique,
 address varchar(100),
