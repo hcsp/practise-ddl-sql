@@ -1,4 +1,5 @@
-create table Goods (
+create table Goods
+(
                        id              bigint       auto_increment,
                        name            varchar(100) not null,
                        price           decimal      not null,
