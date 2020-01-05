@@ -6,3 +6,6 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+INSERT INTO Goods (id,name, price, `left`, created_at, updated_at, status) VALUES (
+200, 'TEST_GOODS', 123.00, 1, now(), now(), 1
+);
