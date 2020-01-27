@@ -12,5 +12,5 @@ name varchar(100) not null,
 tel varchar(20) not null unique ,
 address varchar(100),
 created_at timestamp not null,
-update_at timestamp not null,
+updated_at timestamp not null,
 status tinyint not null)
