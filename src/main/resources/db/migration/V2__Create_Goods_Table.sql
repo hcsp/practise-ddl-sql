@@ -11,8 +11,8 @@ create table user
 id          bigint       primary key auto_increment,
 name        varchar(100) not null,
 price       decimal      not null,
-'left'        int        not null ,
+'left'        int        not null default 0,
 create_at   timestamp    not null,
 updated_at  timestamp    not null,
-status      tinyint      not null
+status      tinyint      not null default 1
 )
