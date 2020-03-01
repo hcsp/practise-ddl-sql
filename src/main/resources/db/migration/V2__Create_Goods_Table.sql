@@ -6,3 +6,13 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+
+CREATE TABLE goods (
+id BIGINT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+price DECIMAL NOT NULL,
+`left` INT NOT NULL DEFAULT 0,
+created_at TIMESTAMP NOT NULL,
+updated_at TIMESTAMP NOT NULL ,
+status TINYINT NOT NULL
+)
