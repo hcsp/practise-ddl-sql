@@ -12,7 +12,7 @@ CREATE TABLE GOODS (
     name VARCHAR(100) NOT NULL,
     price DECIMAL NOT NULL,
     left INT NOT NULL DEFAULT 0,
-    created_at TIMESTAMP NOT NULL,
-    updated_at TIMESTAMP NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT now(),
+    updated_at TIMESTAMP NOT NULL DEFAULT now(),
     status TINYINT NOT NULL
 );

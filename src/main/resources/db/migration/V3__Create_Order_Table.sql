@@ -14,7 +14,7 @@ CREATE TABLE `ORDER` (
     goods_id BIGINT NOT NULL,
     goods_num INT NOT NULL,
     goods_price DECIMAL NOT NULL,
-    created_at TIMESTAMP NOT NULL,
-    updated_at TIMESTAMP NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT now(),
+    updated_at TIMESTAMP NOT NULL DEFAULT now(),
     status TINYINT NOT NULL
 );

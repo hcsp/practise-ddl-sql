@@ -12,7 +12,7 @@ create table USER (
     name VARCHAR(100) not NULL,
     tel VARCHAR(20) not NULL UNIQUE,
     address VARCHAR(100),
-    created_at TIMESTAMP NOT NULL,
-    updated_at TIMESTAMP NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT now(),
+    updated_at TIMESTAMP NOT NULL DEFAULT now(),
     status TINYINT NOT NULL
 );
