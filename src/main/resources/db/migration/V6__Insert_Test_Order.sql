@@ -7,6 +7,3 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-
-INSERT INTO `ORDER`
-VALUES(1, 100, 200, 1, 123.00, NOW(), NOW(), 1);
