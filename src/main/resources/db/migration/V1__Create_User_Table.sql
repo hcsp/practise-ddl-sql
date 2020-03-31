@@ -12,7 +12,7 @@ create table user (
     name varchar(100) not null,
     tel varchar(20) not null unique,
     address varchar(100),
-    create_at timestamp not null default now(),
-    update_at timestamp not null default now(),
+    create_at timestamp not null,
+    update_at timestamp not null,
     status tinyint not null
 );
