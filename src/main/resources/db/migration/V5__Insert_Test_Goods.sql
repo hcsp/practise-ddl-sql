@@ -8,5 +8,5 @@
 -- STATUS       1
 
 insert into GOODS
-    (id,NAME,PRICE,`LEFT`,CREATE_AT,UPDATE_AT,STATUS)
+    (id,name,price,`left`,created_at,updated_at,status)
     values (200, 'TEST_GOODS', 123.00, 1, now(), now(), 1);

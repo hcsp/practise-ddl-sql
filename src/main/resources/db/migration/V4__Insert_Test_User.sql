@@ -8,5 +8,5 @@
 -- STATUS       1
 
 insert into
-    user (id, name, tel, address, create_at, update_at, status)
+    user (id, name, tel, address, created_at, updated_at, status)
     values (100, 'TEST_USER', '1234567890', null, now(), now(), 1);
