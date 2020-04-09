@@ -13,6 +13,6 @@ create table GOODS
 	PRICE DECIMAL not null,
 	"LEFT" int default 0 not null,
 	CREATED_AT TIMESTAMP not null,
-	UPDATED_AT TIMESTAMP not null,
+	UPDATE_AT TIMESTAMP not null,
 	STATUS TINYINT not null,
 );
