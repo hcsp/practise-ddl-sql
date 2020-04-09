@@ -5,7 +5,7 @@ create table User
 	TEL VARCHAR(20) not null,
 	ADDRESS VARCHAR(100),
 	CREATED_AT timestamp not null,
-	UPDATE_AT timestamp not null,
+	UPDATED_AT timestamp not null,
 	Status TINYINT not null,
 );
 
