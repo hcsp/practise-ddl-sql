@@ -7,3 +7,6 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+
+insert into "ORDER" (ID, USER_ID, GOODS_ID, GOODS_NUM, GOODS_PRICE, CREATED_AT, UPDATED_AT, STATUS)
+VALUES (1, 100, 200, 1, 123.00, now(), now(), 1);
