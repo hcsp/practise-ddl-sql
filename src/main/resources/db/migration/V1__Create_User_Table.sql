@@ -2,12 +2,13 @@ CREATE TABLE USER
 (
     ID      BIGINT PRIMARY AUTO_INCREMENT,
     NAME    VARCHAR(100)    NOT NULL,
-    TEL     VARCHAR(20)    NOT NULL UNIQUE,
-    ADDRESS VARCHAR(100) ,
+    TEL     VARCHAR(20)     NOT NULL UNIQUE,
+    ADDRESS VARCHAR(100)    NULL,
     CREATED_AT TIMESTAMP    NOT NULL,
     UPDATED_AT TIMESTAMP    NOT NULL,
     STATUS     TINYINT      NOT NULL,
 )
+
 -- 请在这里编写一条SQL语句，创建一个名为USER的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增
 -- NAME         VARCHAR(100) 用户名            不可为空
