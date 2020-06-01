@@ -1,11 +1,12 @@
-create table goods (
-    id          bigint primary key auto_increment,
-    name        varchar(100)  not null,
-    price       decimal       not null,
-    left        int           not null default 0,
-    created_at  timestamp     not null,
-    updated_at  timestamp     not null,
-    status      tinyint       not null
+CREATE TABLE GOODS
+(
+    ID         BIGINT PRIMARY KEY AUTO_INCREMENT,
+    NAME       VARCHAR(100) NOT NULL,
+    PRICE      DECIMAL      NOT NULL,
+    LEFT       INT          NOT NULL DEFAULT 0,
+    CREATED_AT TIMESTAMP    NOT NULL,
+    UPDATED_AT TIMESTAMP    NOT NULL,
+    STATUS     TINYINT      NOT NULL
 )
 -- 请在这里编写一条SQL语句，创建一个名为GOODS的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增

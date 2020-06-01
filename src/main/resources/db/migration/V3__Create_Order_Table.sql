@@ -1,12 +1,12 @@
-create table `order` (
-    id          bigint primary key auto_increment,
-    user_id     bigint      not null,
-    goods_id    bigint      not null,
-    goods_num   int         not null,
-    goods_price decimal     not null,
-    created_at  timestamp   not null,
-    updated_at  timestamp   not null,
-    status      tinyint     not null,
+CREATE TABLE `ORDER`(
+    ID          BIGINT    PRIMARY KEY AUTO_INCREMENT,
+    USER_ID     BIGINT    NOT NULL,
+    GOODS_ID    BIGINT    NOT NULL,
+    GOODS_NUM   INT       NOT NULL,
+    GOODS_PRICE DECIMAL   NOT NULL,
+    CREATED_AT  TIMESTAMP NOT NULL,
+    UPDATED_AT  TIMESTAMP NOT NULL,
+    STATUS      TINYINT   NOT NULL
 )
 -- 请在这里编写一条SQL语句，创建一个名为订单的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增
