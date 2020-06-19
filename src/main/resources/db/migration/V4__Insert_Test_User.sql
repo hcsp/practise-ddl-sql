@@ -1,5 +1,4 @@
 -- 请在这里编写一条SQL语句，向USER插入一条测试数据
-INSERT INTO user VALUES (100,'TEST_USER','1234567890',NULL,NOW(),NOW(),1);
 -- ID           100
 -- NAME         'TEST_USER'
 -- TEL          '1234567890'
