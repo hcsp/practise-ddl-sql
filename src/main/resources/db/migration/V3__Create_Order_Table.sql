@@ -7,3 +7,15 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+
+CREATE TABLE `order`
+(
+    id          BIGINT AUTO_INCREMENT,
+    user_id     BIGINT    NOT NULL,
+    goods_id    BIGINT    NOT NULL,
+    goods_num   int       NOT NULL,
+    goods_price DECIMAL   NOT NULL,
+    created_at  TIMESTAMP NOT NULL,
+    updated_at  TIMESTAMP NOT NULL,
+    status      TINYINT   NOT NULL
+);
