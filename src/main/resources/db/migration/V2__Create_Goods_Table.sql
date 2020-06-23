@@ -11,8 +11,8 @@ create table GOODS
     ID bigint auto_increment primary key ,
     NAME varchar (100) not null ,
     PRICE DECIMAL not null ,
-    "LEFT" int default 0 not null ,
-    created_At TIMESTAMP not null ,
+    "LEFT" int  not null default 0,
+    CREATED_AT TIMESTAMP not null ,
     UPDATED_AT TIMESTAMP not null ,
     STATUS TINYINT not null ,
 );
