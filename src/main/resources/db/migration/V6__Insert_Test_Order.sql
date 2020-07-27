@@ -7,7 +7,6 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-
 insert into `order`
 (id,user_id,goods_id,goods_num,goods_price,created_at,updated_at,status)
 values

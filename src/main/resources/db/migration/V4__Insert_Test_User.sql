@@ -6,7 +6,6 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-
 insert into user
 (id,name,tel,address,created_at,updated_at,status)
 values
