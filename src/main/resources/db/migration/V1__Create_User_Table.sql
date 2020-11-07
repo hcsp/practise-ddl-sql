@@ -14,4 +14,4 @@ create table user(
     created_at timestamp not null ,
     updated_at timestamp not null,
     status tinyint not null
-)
+);

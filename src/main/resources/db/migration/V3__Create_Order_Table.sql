@@ -12,7 +12,7 @@ create table `order`(
      user_id bigint not null,
      goods_id bigint not null,
      goods_num int not null,
-     good_price decimal not null,
+     goods_price decimal not null,
      updated_at timestamp not null,
      created_at timestamp not null,
      status tinyint not null
