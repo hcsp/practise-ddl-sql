@@ -6,3 +6,13 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
+create table USER
+(
+    ID        BIGINT primary key AUTO_INCREMENT,
+    NAME      VARCHAR     not null,
+    TEL       VARCHAR(20) not null unique,
+    ADDRESS   VARCHAR(100),
+    CREATED_AT TIMESTAMP   not null,
+    UPDATED_AT TIMESTAMP   not null,
+    STATUS    TINYINT     not null
+)
