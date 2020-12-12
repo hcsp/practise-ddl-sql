@@ -14,7 +14,6 @@ public class SqlTest {
         File projectDir = new File(System.getProperty("basedir", System.getProperty("user.dir")));
         String jdbcUrl = "jdbc:h2:file:" + new File(projectDir, "target/mall").getAbsolutePath();
 
-        System.out.println(jdbcUrl);
         try (Connection connection = DriverManager.getConnection(jdbcUrl, "root", "Jxi1Oxc92qSj")) {
             assertRowExists(
                     connection,
