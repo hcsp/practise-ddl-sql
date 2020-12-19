@@ -14,7 +14,7 @@ create table USER
     TEL VARCHAR(20) not null,
     ADDRESS varchar(100),
     CREATED_AT timestamp not null,
-    UPDATE_AT timestamp not null,
+    UPDATED_AT timestamp not null,
     STATUS TINYINT not null,
     constraint USER_PK
         primary key (ID)
@@ -33,7 +33,7 @@ comment on column USER.ADDRESS is '地址';
 
 comment on column USER.CREATED_AT is '创建时间';
 
-comment on column USER.UPDATE_AT is '修改时间';
+comment on column USER.UPDATED_AT is '修改时间';
 
 comment on column USER.STATUS is '状态，1正常，-1删除';
 
