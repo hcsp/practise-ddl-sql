@@ -6,3 +6,7 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+
+insert into user(100,name, tel, address, create_at, update_at, status)
+values (ID, 'TEST_USER','1234567890',NULL,NOW(),NOW(),1 );
+
