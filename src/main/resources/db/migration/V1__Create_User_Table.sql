@@ -9,9 +9,9 @@
 create table USER (
 	ID bigint primary key auto_increment,
 	NAME varchar(100) not null,
-	tel varchar(20) not null unique,
-	address varchar(100) null,
-	created_at timestamp not null,
-	updated_at timestamp not null,
-	status tinyint not null
+	TEL varchar(20) not null unique,
+	ADDRESS varchar(100) null,
+	CREATED_AT timestamp not null,
+	UPDATED_AT timestamp not null,
+	STATUS tinyint not null
 );

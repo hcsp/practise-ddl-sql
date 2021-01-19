@@ -7,11 +7,11 @@
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table goods(
-	id bigint primary key auto_increment,
-	name varchar(100) not null,
-	price decimal not null,
+	ID bigint primary key auto_increment,
+	NAME varchar(100) not null,
+	PRICE decimal not null,
 	"LEFT" int not null default 0,
-	created_at timestamp not null,
-	updated_at timestamp not null,
-	status tinyint not null
+	CREATED_AT timestamp not null,
+	UPDATED_AT timestamp not null,
+	STATUS tinyint not null
 );
