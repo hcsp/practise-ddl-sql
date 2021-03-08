@@ -9,12 +9,12 @@
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table `order`
 (
-    id         bigint auto_increment primary key not null,
-    user_id    bigint                            not null,
-    goods_id    bigint                            not null,
-    goods_num   int                               not null,
-    goods_price decimal                           not null,
-    created_at timestamp                         not null,
-    updated_at timestamp                         not null,
-    status     tinyint                           not null
+    id          bigint auto_increment primary key,
+    user_id     bigint    not null,
+    goods_id    bigint    not null,
+    goods_num   int       not null,
+    goods_price decimal   not null,
+    created_at  timestamp not null,
+    updated_at  timestamp not null,
+    status      tinyint   not null
 )

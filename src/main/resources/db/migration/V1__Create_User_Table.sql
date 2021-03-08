@@ -8,11 +8,11 @@
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table user
 (
-    id         bigint auto_increment primary key not null,
-    name       varchar(100)                      not null,
-    tel        varchar(20)                       not null unique,
-    address    varchar(100)                      null,
-    created_at timestamp                         not null,
-    updated_at timestamp                         not null,
-    status     tinyint                           not null
+    id         bigint auto_increment primary key,
+    name       varchar(100) not null,
+    tel        varchar(20)  not null unique,
+    address    varchar(100) null,
+    created_at timestamp    not null,
+    updated_at timestamp    not null,
+    status     tinyint      not null
 )
