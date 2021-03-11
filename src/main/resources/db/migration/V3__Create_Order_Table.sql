@@ -16,4 +16,4 @@ create table order(
     CREATED_AT   TIMESTAMP    not null,
     UPDATED_AT   TIMESTAMP    not null,
     STATUS       TINYINT      not null
-);
+)
