@@ -7,7 +7,7 @@
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 
-CREATE TABLE USER
+CREATE TABLE `USER`
 (
     ID         BIGINT AUTO_INCREMENT,
     NAME       VARCHAR(100) NOT NULL,
