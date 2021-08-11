@@ -14,6 +14,6 @@ create table GOODS
     "LEFT"     int     default 0 not null,
     CREATED_at timestamp         not null,
     updated_at timestamp         not null,
-    status     tinyint default 1 not null
+    status     tinyint not null
 )
 

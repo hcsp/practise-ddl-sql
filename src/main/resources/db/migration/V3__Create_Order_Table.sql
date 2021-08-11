@@ -10,11 +10,11 @@
 create table "order"
 (
     id          bigint primary key auto_increment,
-    user_id     bigint            not null,
-    goods_id    bigint            not null,
-    goods_num   int               not null,
-    Goods_PRICE decimal           not null,
-    CREATED_AT  timestamp         not null,
-    updated_at  timestamp         not null,
-    status      tinyint default 1 not null
+    user_id     bigint    not null,
+    goods_id    bigint    not null,
+    goods_num   int       not null,
+    Goods_PRICE decimal   not null,
+    CREATED_AT  timestamp not null,
+    updated_at  timestamp not null,
+    status      tinyint   not null
 )

@@ -14,5 +14,5 @@ create table USER
     address    varchar(100),
     created_at timestamp    not null,
     updated_at timestamp    not null,
-    status     tinyint      not null default 1
+    status     tinyint      not null
 )
