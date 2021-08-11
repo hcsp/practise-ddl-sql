@@ -8,12 +8,14 @@
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table GOODS
 (
-    id         bigint primary key auto_increment,
-    name       varchar(100)      not null,
-    PRICE      DECIMAL           not null,
-    "LEFT"     int     default 0 not null,
-    CREATED_at timestamp         not null,
-    updated_at timestamp         not null,
-    status     tinyint not null
-)
+    id         bigint auto_increment,
+    name       varchar(100)  not null,
+    PRICE      DECIMAL       not null,
+    "LEFT"     int default 0 not null,
+    CREATED_at timestamp     not null,
+    updated_at timestamp     not null,
+    status     tinyint       not null,
+    constraint GOODS_PK
+        primary key (id)
+);
 
