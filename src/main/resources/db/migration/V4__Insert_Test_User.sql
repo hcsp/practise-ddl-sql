@@ -7,4 +7,5 @@
 -- UPDATED_AT   NOW()
 -- STATUS       1
 insert into user (id, name, tel, ADDRESS, CREATED_AT, UPDATED_AT, status)
-values (100, 'test_user', '1234567890', null, now(), now(), 1)
+values (100, 'TEST_USER', '1234567890', null, now(), now(), 1)
+
