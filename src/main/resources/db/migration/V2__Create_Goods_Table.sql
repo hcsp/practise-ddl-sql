@@ -12,7 +12,7 @@ create table goods
     id         bigint auto_increment primary key,
     name       varchar(100)  not null,
     price      decimal       not null,
-    'left'    int default 0 not null,
+    `left`    int default 0 not null,
     created_at timestamp     not null,
     updated_at timestamp     not null,
     status     tinyint       not null

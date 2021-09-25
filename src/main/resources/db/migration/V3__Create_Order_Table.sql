@@ -8,7 +8,7 @@
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 
-create table "order"
+create table `order`
 (
     id          bigint auto_increment primary key,
     USER_ID     bigint    not null,

@@ -7,5 +7,5 @@
 -- UPDATED_AT   NOW()
 -- STATUS       1
 insert into GOODS
-    (id, name, PRICE, "left", created_at, UPDATED_AT, status)
+    (id, name, PRICE, `left`, created_at, UPDATED_AT, status)
 values (200, 'TEST_GOODS', 123.00, 1, NOW(), NOW(), 1)
