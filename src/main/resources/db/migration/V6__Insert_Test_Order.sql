@@ -7,4 +7,3 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-INSERT INTO `ORDER` (id, user_id, goods_id, goods_num, goods_price) VALUES ( 1, 100, 200, 1, 123.00 );

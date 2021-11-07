@@ -6,4 +6,3 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-INSERT INTO user (id, name, tel, address) VALUES (100, 'TEST_USER', '1234567890', NULL);
