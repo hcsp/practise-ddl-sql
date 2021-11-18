@@ -10,7 +10,7 @@ create table Goods (
 id bigint primary key auto_increment,
 name vachar(100) not null,
 price decimal not null,
-"left" int not null default 0,
+`left` int not null default 0,
 CREATED_AT TIMESTAMP not null,
 UPDATED_AT TIMESTAMP not null,
 STATUS TINYINT NOT NULL default 1,

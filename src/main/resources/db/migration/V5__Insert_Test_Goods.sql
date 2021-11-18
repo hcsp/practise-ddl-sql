@@ -6,4 +6,6 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert INTO goods VALUES (200, 'TEST_GOODS', 123.00, 1,NOW(),NOW(),1)
+insert into goods
+(ID, NAME, PRICE, LEFT, CREATED_AT, UPDATED_AT, STATUS)
+values ( 200, 'TEST_GOODS', 123.00, 1, now(), now(), 1)
