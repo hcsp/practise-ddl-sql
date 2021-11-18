@@ -7,3 +7,4 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+insert INTO "order" VALUES (1, 100, 200, 1,123.00,NOW(),NOW(),1)
