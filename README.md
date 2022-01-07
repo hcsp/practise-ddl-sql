@@ -4,6 +4,10 @@
 
 数据库的连接URL是`jdbc:h2:file:<你的项目文件夹地址>/target/mall`，例如`jdbc:h2:file:D:/problems/practise-ddl-sql/target/mall`
 
+
+jdbc:h2:file:D:/home/snowZoro/javaStudy/task26/practise-ddl-sql/target/mall
+ 
+
 用户名是`root`，密码是`Jxi1Oxc92qSj`。
 
 - [创建用户表 src/main/resources/db/migration/V1__Create_User_Table.sql](https://github.com/hcsp/practise-ddl-sql/blob/master/src/main/resources/db/migration/V1__Create_User_Table.sql)
