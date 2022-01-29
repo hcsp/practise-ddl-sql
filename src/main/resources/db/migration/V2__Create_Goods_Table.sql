@@ -7,11 +7,12 @@
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table GOODS
-(ID bigint primary key auto_increment,
-NAME varchar(100) not null,
-PRICE decimal not null,
-'LEFT' int not null default 0,
-CREATED_AT timestamp not null,
-UPDATED_AT timestamp not null,
-STATUS tinyint not null
+(
+    ID bigint primary key auto_increment,
+    NAME varchar(100) not null ,
+    PRICE decimal not null ,
+    `LEFT`       int          not null default 0,
+    STATUS     tinyint      not null,
+    CREATED_AT timestamp    not null,
+    UPDATED_AT timestamp    not null
 )
