@@ -7,5 +7,3 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert into "ORDER"(ID, USER_ID, GOODS_ID, GOODS_NUM, GOODS_PRICE, STATUS, CREATED_AT, UPDATED_AT)
-values (1, 100, 200, 1, 123.00, 1, now(), now())
