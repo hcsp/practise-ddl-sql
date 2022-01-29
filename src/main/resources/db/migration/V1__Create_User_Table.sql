@@ -7,11 +7,11 @@
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
 create table USER
-(USER bigint primary key auto_increment,
+(ID bigint primary key auto_increment,
 NAME varchar(100) not null,
 TEL varchar(20) not null unique,
 ADDRESS varchar(100),
 CREATED_AT timestamp not null,
 UPDATED_AT timestamp not null,
-STATUS tinyint not null default 1
+STATUS tinyint not null
 )
