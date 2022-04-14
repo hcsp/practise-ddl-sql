@@ -6,3 +6,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
+insert into PUBLIC."USER" (ID, NAME, TEL, CREATED_AT, UPDATED_AT, STATUS)
+values (100, 'TEST_USER', '1234567890', NOW(), Now(), 1)
