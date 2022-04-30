@@ -7,5 +7,5 @@
 -- CREATED_AT   NOW()
 -- UPDATED_AT   NOW()
 -- STATUS       1
-insert into "order" (id, user_id, goods_id, goods_id, goods_num, goods_price, created_at, updated_at)
-    values (1, 100, 200, 1, 123.00, NOW(), NOW(), 1)
+insert into "order" (ID, USER_ID, GOODS_ID, GOODS_NUM, GOODS_PRICE, CREATED_AT, UPDATED_AT)
+    values (1, 100, 200, 1, 123.00, NOW(), NOW(), 1);
