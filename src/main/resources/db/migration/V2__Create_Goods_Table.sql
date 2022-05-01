@@ -6,7 +6,7 @@
 -- CREATED_AT   TIMESTAMP    创建时间           不可为空
 -- UPDATED_AT   TIMESTAMP    修改时间           不可为空
 -- STATUS       TINYINT      状态，1正常，-1删除  不可为空
-create table `goods` (
+create table goods (
     id bigint primary key auto_increment,
     name varchar(100) not null,
     price decimal not null,
