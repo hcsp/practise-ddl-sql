@@ -1,3 +1,15 @@
+create table `ORDER`(
+    id         bigint auto_increment  primary key,
+    USER_ID    bigint not null,
+    GOODS_ID   bigint not null,
+    GOODS_NUM  int not null,
+    GOODS_PRICE      decimal not null,
+    CREATED_AT timestamp     not null,
+    UPDATED_AT timestamp       not null,
+    STATUS     tinyint       not null
+);
+
+
 -- 请在这里编写一条SQL语句，创建一个名为订单的表，其中的列如下
 -- ID           BIGINT       ID               主键 自增
 -- USER_ID      BIGINT       用户ID            不可为空
